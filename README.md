@@ -139,6 +139,6 @@ Same logic, loops over profession classes 1, 2, 3 using `binned_data_yearly_am.d
 
 ## Gotchas
 
-- `kink_shift` (default 50 EUR) corrects for table fees charged by employers; set to 0 to use raw kink values.
+- `kink_shift` (default 50 EUR) corrects for "table fees"; set to 0 to use raw kink values.
 - Zoom threshold (2250 EUR) is set via `x_min` or `zoom_x` near the top of each plot script.
 - The `censored` flag is not filtered — cells near sparse bins should be interpreted carefully.
