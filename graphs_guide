@@ -1,0 +1,8 @@
+These graphs should be produced. Make a new code based on the old ones that does this.
+(all deflated with earnings indexx, but leave the knob)
+1A) histogram limiting to over 1000e, with years 2021, 2022 and 2023 for 0 dependants. leave a dependant knob here.
+1B) the change graph with change from 2021->2022 and 2022->2023
+A1) the "comparison graph", with 1 dep in 2023 and 0 dep in 2022 and 2023 histogram 
+A2) change graph with the 3 professions
+
+Make one file that will produce this. Have knobs at the top. list in the top the graphs produced

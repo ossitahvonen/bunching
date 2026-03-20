@@ -1,0 +1,42 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Rscript -e \"library\\(haven\\); df <- read_dta\\(''binned_data_yearly.dta''\\); str\\(df\\); head\\(df, 20\\)\")",
+      "Bash(Rscript -e \"library\\(haven\\); df <- read_dta\\(''binned_data_yearly.dta''\\); cat\\(''Years:'', unique\\(df$year\\), ''\\\\n''\\); cat\\(''Bin range:'', range\\(df$palkka_bin\\), ''\\\\n''\\); cat\\(''N rows:'', nrow\\(df\\), ''\\\\n''\\)\")",
+      "Bash(Rscript plot_dist.R)",
+      "Bash(open /Users/ossitahvonen/Documents/ideation/bunching/d86_20260312/income_dist.pdf)",
+      "Bash(open income_dist.pdf)",
+      "Bash(Rscript -e \"library\\(haven\\); df <- read_dta\\(''binned_data_yearly.dta''\\); str\\(df\\); head\\(df, 10\\)\")",
+      "Bash(Rscript -e \"library\\(haven\\); df <- read_dta\\(''binned_data_yearly.dta''\\); cat\\(''dependants values:'', unique\\(df$dependants\\), ''\\\\n''\\); cat\\(''non-NA ei_bin rows:'', sum\\(!is.na\\(df$palkka_ei_bin\\)\\), ''\\\\n''\\); print\\(head\\(df[!is.na\\(df$palkka_ei_bin\\),], 5\\)\\)\")",
+      "Bash(Rscript -e \":*)",
+      "Bash(open income_dist_diff.pdf)",
+      "Bash(echo \"Exit: $?\")",
+      "Bash(grep -v \"^The following\\\\|^    \\\\|^$\\\\|Attaching\")",
+      "Bash(Rscript plot_dist_am.R)",
+      "Bash(open income_dist_am_class1.pdf income_dist_diff_am_class1.pdf)",
+      "Bash(Rscript plot_dist_am_compare.R)",
+      "Bash(open income_dist_diff_am_compare.pdf)",
+      "Bash(Rscript plot_dist_dep_compare.R)",
+      "Bash(open income_dist_dep_compare.pdf)",
+      "Bash(python3 -:*)",
+      "Bash(Rscript -e \"library\\(haven\\); df <- read_dta\\(''binned_data_yearly_am.dta''\\); str\\(df\\)\")",
+      "Bash(Rscript -e \"library\\(haven\\); df <- read_dta\\(''binned_data_yearly_am.dta''\\); cat\\(unique\\(df$prof_code_2019\\)\\)\")",
+      "Bash(Rscript produce_graphs.R)",
+      "Bash(gh auth:*)",
+      "Bash(brew install:*)",
+      "Bash(curl -sL https://github.com/cli/cli/releases/download/v2.65.0/gh_2.65.0_macOS_arm64.tar.gz)",
+      "Bash(tar xz:*)",
+      "Bash(/tmp/gh_2.65.0_macOS_arm64/bin/gh --version)",
+      "Bash(curl -sL -o /tmp/gh.zip https://github.com/cli/cli/releases/download/v2.65.0/gh_2.65.0_macOS_arm64.zip)",
+      "Bash(unzip -q /tmp/gh.zip -d /tmp/gh_cli)",
+      "Bash(/tmp/gh_cli/gh_2.65.0_macOS_arm64/bin/gh --version)",
+      "Bash(/tmp/gh_cli/gh_2.65.0_macOS_arm64/bin/gh auth:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(/tmp/gh_cli/gh_2.65.0_macOS_arm64/bin/gh repo:*)",
+      "Bash(git rm:*)",
+      "Bash(git push:*)"
+    ]
+  }
+}

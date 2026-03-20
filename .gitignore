@@ -1,0 +1,10 @@
+# R session artifacts
+.Rhistory
+.RData
+.Rproj.user/
+
+# Output PDFs
+*.pdf
+
+# Temp Office files
+~$*
