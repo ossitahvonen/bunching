@@ -31,6 +31,7 @@ diff_years        <- c(2022, 2023)   # change from diff_years[1] -> diff_years[2
 search_window <- 600
 
 # Shift all kink points by this many EUR (positive = right, negative = left; 0 = no shift)
+#in case the user wants to correct for table fees
 kink_shift <- 50
 
 # Kinks to analyse (pulled from functions.R, then shifted)
