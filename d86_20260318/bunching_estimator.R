@@ -14,7 +14,9 @@
 # The plots need to be checked to make sure the limits make sense.
 # ──────────────────────────────────────────────────────────────────────────────
 
-setwd("/Users/ossitahvonen/Documents/ideation/bunching/d86_20260318")
+#setwd("/Users/ossitahvonen/Documents/ideation/bunching/d86_20260318")
+setwd("//ad.helsinki.fi/home/o/osstahv/Documents/GitHub/bunching/d86_20260318")
+
 source("functions.R")
 
 library(haven)
