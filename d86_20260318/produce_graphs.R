@@ -37,9 +37,9 @@ bin_col <- switch(wage_var,
 )
 
 wage_label <- switch(wage_var,
-  nominal        = "Yearly income, nominal (EUR)",
-  earnings_index = "Yearly income, deflated by earnings index (EUR, 2020)",
-  cpi            = "Yearly income, deflated by CPI (EUR, 2020)"
+  nominal        = "Monthly income, nominal (EUR)",
+  earnings_index = "Monthly income, deflated by earnings index (EUR, 2020)",
+  cpi            = "Monthly income, deflated by CPI (EUR, 2020)"
 )
 
 # ── 1A & 1B: overall population ───────────────────────────────────────────────

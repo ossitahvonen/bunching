@@ -20,7 +20,7 @@ ggplot(df, aes(x = palkka_bin, y = density, color = factor(year))) +
   scale_y_continuous(labels = scales::percent_format(accuracy = 0.1)) +
   scale_color_brewer(palette = "Set1", name = "Year") +
   labs(
-    x = "Yearly income (EUR)",
+    x = "Monthly income (EUR)",
     y = "Share of individuals",
     title = "Income distribution by year"
   ) +
@@ -50,7 +50,7 @@ ggplot(df_diff, aes(x = palkka_bin)) +
   scale_x_continuous(labels = scales::comma, breaks = seq(0, 5000, by = 500)) +
   scale_y_continuous(labels = scales::percent_format(accuracy = 0.1)) +
   labs(
-    x = "Yearly income (EUR)",
+    x = "Monthly income (EUR)",
     y = "Change in share of individuals",
     title = "Change in income distribution"
   ) +
@@ -78,7 +78,7 @@ ggplot(df_am, aes(x = palkka_bin, y = diff_2223, color = class_label)) +
   scale_x_continuous(labels = scales::comma, breaks = seq(0, 5000, by = 500)) +
   scale_y_continuous(labels = scales::percent_format(accuracy = 0.1)) +
   labs(
-    x = "Yearly income (EUR)",
+    x = "Monthly income (EUR)",
     y = "Change in share of individuals",
     title = "Change in income distribution 2022-2023 by profession class (dependants = 0)"
   ) +
